@@ -1,0 +1,151 @@
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+}
+.block-left{
+    width:50%;
+    height:800px;
+    overflow:auto;
+    float:left;
+    background-color: lightskyblue;
+}
+.block-right{
+    width:50%;
+    height:800px;
+    overflow:auto;
+}
+.text{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 335px;
+    font-size: large;
+}
+.footer {
+    height: 5rem;
+    background-color: rgb(252, 252, 252);
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+   }  
+.input{
+    margin-top: 4rem;
+    margin-left: 12rem;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}   
+#first{
+    border-color:  lightgrey;;
+}
+#second {
+    margin-left: 2rem;
+}
+#password{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-left: 25rem;
+    color: gainsboro;
+    border-color: lightgrey;
+}
+#login{
+    border-radius: 40%;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    color: lightskyblue;
+    background-color: white;
+    border-color: lightskyblue;
+}
+.image{
+    height: 125px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+#label{
+    margin-left: 10rem;
+    font-weight: 900;
+}
+#label-join{
+    margin-left: 10rem;
+    font-weight: 550; 
+    margin-top: 2rem;
+}
+#join{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 21.945rem;
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 8px 10px 10px 10px;
+    height:40px;
+    background-color:lightskyblue;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+#join:hover{
+    background-color: dodgerblue;
+}
+.registration{
+    display: flex;
+    flex-flow: column;
+    width: 20rem;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.name{
+margin-bottom: 15px;
+border-radius: 4px;
+height: 40px;
+border-color: gainsboro;
+}
+.number{
+    border-radius: 4px;
+    height: 40px;
+    border-color: gainsboro;
+    }  
+#email{
+    margin-top: 5px;
+    margin-right: 10rem;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(34, 186, 236); 
+}
+#email:hover{
+    color: rgb(19, 119, 185);
+}
+.checkbox{
+   display: flex;
+  flex-direction: row;
+}
+h6{
+    color: rgb(197, 197, 197);
+    font-weight: lighter;
+}
+.politic{
+    margin-right: 16rem;
+    margin-top: 10px;
+    text-align:justify;
+}
